@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/FFImage">
+        <file>Images/Brentilda_icon.png</file>
+        <file>Images/Brentilda_icon.ico</file>
+    </qresource>
+</RCC>
