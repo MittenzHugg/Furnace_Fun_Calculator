@@ -9,5 +9,4 @@ Love,
 
 
 To Do:  
-Fill in French special characters
 create Mac port
