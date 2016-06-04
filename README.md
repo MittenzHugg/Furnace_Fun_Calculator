@@ -2,9 +2,12 @@
 
 This build is currently in Beta.
 
-This build is dynamically linked, so keep all files together
+Please give me feedback on how it goes for you!
+Love,
+-Michael "Mittenz" Salino-Hugg
+
+
 
 To Do:  
-Figure out how to make a static Qt build  
 Fill in French special characters
 create Mac port
