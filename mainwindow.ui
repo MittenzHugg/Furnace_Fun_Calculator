@@ -978,6 +978,12 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::ActionsContextMenu</enum>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QWidget" name="answers" native="true">
      <property name="geometry">

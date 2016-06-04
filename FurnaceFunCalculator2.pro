@@ -26,3 +26,5 @@ RESOURCES += \
 
 ICON += \
     Images\Brentilda_icon.ico
+win32: RC_ICONS += Images\Brentilda_icon.ico
+CONFIG += static

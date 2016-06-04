@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QString>
 #include <QKeyEvent>
+#include <QLabel>
 #include "stdint.h"
 #include <stack>
 #include <string>
@@ -12,6 +13,8 @@
 
 enum  language : uint8_t{ENGLISH, FRENCH, GERMAN, JAPANESE};
 enum  buttonFontStyles : uint8_t{DEFAULT, MOST_LIKELY, CORRECT, WRONG};
+enum  searchMode : uint8_t{QUESTIONS, ANSWERS, QUESTION_AND_ANSWERS};
+enum  searchLanguage : uint8_t{CURRENT, ALL_LANGUAGES};
 
 namespace Ui {
 class MainWindow;
@@ -37,9 +40,12 @@ class MainWindow : public QMainWindow
     std::stack<int16_t> possibleAnswers;
     int16_t foundNumber = -1;
     language currLang = ENGLISH;
+    uint8_t currSearchLang = QUESTIONS; //0=current, 1=all
+    uint8_t currSearchMode = CURRENT; //0=current, 1=all
 
     QRightClickButton* buttonArray[90];
     QRightClickButton* miniButtonArray[5];
+    QLabel* questionArray[30];
 
 
 public:
@@ -68,11 +74,17 @@ private slots:
     void on_patternNumInput_textEdited(const QString &arg1);
 
     //MENU OPTIONS
-    void on_doubleClick_checked(bool userWantsDouble);
-    void on_singleClick_checked(bool userWantsSingle);
+    void on_actionDouble_triggered();
+    void on_actionSingle_triggered();
 
-    void on_fullCalc_checked(bool userWantsFullCalc);
-    void on_miniCalc_checked(bool userWantsMiniCalc);
+    void on_actionFull_Calculator_triggered();
+    void on_actionMini_mode_triggered();
+    void on_actionQuestions_triggered();
+    void on_actionAnswers_triggered();
+    void on_actionQuestions_Answers_triggered();
+    void on_actionCurrent_Language_triggered();
+    void on_actionAll_Languages_triggered();
+
 
     void searchTextEdited(const QString &arg1);
 
