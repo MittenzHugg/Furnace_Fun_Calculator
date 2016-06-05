@@ -18,8 +18,8 @@ Hotkeys Windows:
   -Undo:             Ctrl+Z  
   -Reset:            Ctrl+N
 
-Hotkeys Mac:
-  -Mini/Full Toggle: Ctrl+⌘+F
-  -Undo:             Ctrl+⌘+Z
-  -Reset:            Ctrl+⌘+N
+Hotkeys Mac:  
+  -Mini/Full Toggle: Ctrl+⌘+F  
+  -Undo:             Ctrl+⌘+Z  
+  -Reset:            Ctrl+⌘+N  
 
