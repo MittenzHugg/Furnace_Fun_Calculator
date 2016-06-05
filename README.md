@@ -1,8 +1,7 @@
 # Furnace_Fun_Calculator
 
 This build is currently in Beta.
-
-Please give me feedback on how it goes for you!  
+Please give me feedback on any changes the need to be made!  
 Love,  
 -Michael "Mittenz" Salino-Hugg
 
@@ -12,10 +11,15 @@ Non-unique keyword search results
 Added Languages: French and German  
 Updated visuals for easier answer finding  
 Displays pattern number when 1 pattern remaining  
-Hotkeys:  
-  -F11 Toggle between Mini and Full Modes  
-  -CTRL+z Undo  
-  -CTRL+n Reset
+Multiple Platform Support
 
-To Do:  
-create Mac port
+Hotkeys Windows:  
+  -Mini/Full Toggle: F11
+  -Undo:             Ctrl+Z  
+  -Reset:            Ctrl+N
+
+Hotkeys Mac:
+  -Mini/Full Toggle: Ctrl+⌘+F
+  -Undo:             Ctrl+⌘+Z
+  -Reset:            Ctrl+⌘+N
+
