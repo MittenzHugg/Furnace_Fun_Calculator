@@ -14,7 +14,7 @@ Displays pattern number when 1 pattern remaining
 Multiple Platform Support
 
 Hotkeys Windows:  
-  -Mini/Full Toggle: F11
+  -Mini/Full Toggle: F11  
   -Undo:             Ctrl+Z  
   -Reset:            Ctrl+N
 
