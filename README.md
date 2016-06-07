@@ -23,3 +23,5 @@ Hotkeys Mac:
   -Undo:             Ctrl+⌘+Z  
   -Reset:            Ctrl+⌘+N  
 
+IF YOU GET DLL ERRORS on windows  
+run the vc_redist files
